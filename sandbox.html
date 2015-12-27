@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Spencer Walker - Sandbox Software Solutions</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+		<link rel="stylesheet/less" href="less/styles.less" type="text/css" />
+
+		<!-- set options before less.js script -->
+		<script>
+		  less = {
+		    env: "development",
+		    async: false,
+		    fileAsync: false,
+		    poll: 1000,
+		    functions: {},
+		    dumpLineNumbers: "comments",
+		    relativeUrls: false,
+		    rootpath: ":/a.com/"
+		  };
+		</script>
+
+		<script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+		<script src="js/less.min.js" type="text/javascript"></script>
+		<!--<script src="js/parallax.min.js" type="text/javascript"></script>-->
+	</head>		
+	<body class = "layout2">
+	<div class = "headerContainer">
+		<header>
+			<div class = "headerInner inner">
+				<a href = "/index.html" class = "logo">Spencer Walker</a>
+				<ul class = "menu">
+					<li>
+						<a href = "/sandbox.html">Sandbox</a>
+				    </li>
+				    <li>
+						<a href = "/thcf.html">THCF</a>
+				    </li>
+				    <li>
+						<a href = "/ccs.html">CCS</a>
+				    </li>
+				</ul>
+			</div>
+		</header>
+	</div>
+	<div class = "outer outer-1">
+		<div class = "inner inner-1">
+			<h1>Sandbox Software Solutions</h1>
+			<p>For my final co-op term I spent 8 months working as a web developer at Sandbox Software Solutions in Guelph. Sandbox is a company that specializes in developing websites and custom software. The company was started by two University of Guelph graduates who built their own content management system called Oasis which most of their websites are developed in. <br><br>
+			The general process for website development followed a consistent method. First, a project kick-off with the client would take place, where the design, features, site map and page count were discussed. Next, a Photoshop document (PSD) of the design would be created either by our in-house graphic designer, or by our partner company that we worked closely with on many projects. Over the next couple of months, the client would send over content for the site including images, text and PDFs. During this time, the developers would be building the site on the dev server in Oasis or whichever CMS that project was to be built in. Once the site was near completion, our team would do our own internal audit, followed by an audit by the designers themselves. After the required changes had been made, a final review by the client was done, and the site would go live!<br><br>
+			As a frontend developer, my job generally consisted of building websites from scratch using the designated content management system, which was usually Oasis. I was given the site map, the PSDs from the designer, and the content which was usually sent over in increments. I would structure the layout of the site using HTML and write style sheets in CSS/LESS, carefully measuring dimensions in the Photoshop to match the design. I also spent a lot of time writing Javascript for more advanced features such as banner carousels, image galleries or anything involving JSON parsing. While developing sites, I had to keep in mind that the clients (or their IT departments) would want to be able to make small updates to the site after launch. This means that many tasks that would be more easily accomplished by hard-coding into the source code would instead have to be implemented in such a way that the client could use the Oasis feature that lets them edit that section of the website. This required me to create templates with HTML and CSS which would be copied each time a new ‘list item’ was added. An example of this would be adding a new article to the news section of a site, which was a common feature. Once the site was nearly complete, would need to perform cross-browser testing, followed by tools as Sitebeam, WAVE, and Achecker to ensure that the site was both W3C and AODA compliant.<br><br>
+			I also worked on a few sites that I didn’t start from scratch. Some tasks required me to take a site that had been built by a co-worker and make it responsive, which means it can adapt to whatever device it’s being viewed on. This requires writing media queries which determine how the site is displayed based on the width and height of the screen.<br><br>
+			When I started working at Sandbox I had very little experience with web development. The only exposure I had to it was single class in University that was mainly focused on the backend. Since I was simultaneously learning frontend at the time, it resulted in a lot of Bootstrap templates and copy/pasting from Stack Overflow with very little understanding of what was going on. Working at Sandbox really gave me a solid understanding of how HTML, CSS and JS interact with the DOM. 
+ 			</p>
+
+ 			<h2>Projects</h2>
+ 			<a href = "http://socialresponsibility.aecon.com" class = "project" target = "_blank">Aecon Corporate Social Responsibility</a>
+ 			<a href = "http://canadiangreenhouseconference.com" class = "project" target = "_blank">Canadian Greenhouse Conference</a>
+ 			<a href = "http://gmsh.ca" class = "project" target = "_blank">Gay Men's Sexual Health Alliance</a>
+ 			<a href = "http://discoverhealingwithin.com" class = "project" target = "_blank">Discover Healing Within</a>
+		</div>
+	</div>
+	</body>
+</html>
